@@ -31,3 +31,5 @@ soupsieve==2.5
 urllib3==2.2.1
 wikipedia==1.4.0
 yarl==1.9.4
+
+
