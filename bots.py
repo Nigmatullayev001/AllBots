@@ -18,11 +18,11 @@ from keyboard import value, kurs, back, main_menu, lang
 from state import Value, File, Wiki, Download_yt, Trans, Tel
 
 storage = MemoryStorage()
-BOT_TOKEN = "7069079864:AAHsw_FvbneRiBx4AjV_kRSfpGOCESb1p-A"
+BOT_TOKEN = "BOT_TOKEN"
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(bot=bot, storage=storage)
 
-API_KEY = "5bbf3606ce5e654dde3a5530"
+API_KEY = "API_KEY"
 translator = Translator()
 wikipedia.set_lang("uz")
 dp.middleware.setup(LoggingMiddleware())
